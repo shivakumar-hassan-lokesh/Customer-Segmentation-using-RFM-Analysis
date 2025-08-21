@@ -1,12 +1,8 @@
 # 🛒 Customer Segmentation using RFM Analysis  
 
-![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)  
-![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow?logo=pandas)  
-![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-Clustering-orange?logo=scikitlearn)  
-![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green?logo=plotly)  
-![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal)  
+![Python](https://img.shields.io/badge/Python-3.9+-blue?logo=python)  ![Pandas](https://img.shields.io/badge/Pandas-Data%20Analysis-yellow?logo=pandas)  ![Scikit-Learn](https://img.shields.io/badge/ScikitLearn-Clustering-orange?logo=scikitlearn)  ![Matplotlib](https://img.shields.io/badge/Matplotlib-Visualization-green?logo=plotly)  ![Seaborn](https://img.shields.io/badge/Seaborn-Statistical%20Plots-teal)  
 
----
+
 
 ## 📌 Project Overview  
 This project focuses on **Customer Segmentation** using the **RFM (Recency, Frequency, Monetary) Analysis** method.  
@@ -18,7 +14,7 @@ RFM analysis is a proven marketing technique that helps businesses:
 - Recognize **high-value buyers**  
 - Tailor marketing strategies for **customer retention and growth**  
 
----
+
 
 ## 🎯 Objectives
 - Clean and preprocess eCommerce transaction data  
@@ -28,7 +24,7 @@ RFM analysis is a proven marketing technique that helps businesses:
 - Provide **business recommendations** based on insights  
 - Visualize patterns and clusters  
 
----
+
 
 ## 📂 Dataset Details
 - **Source:** [Kaggle – eCommerce Dataset](https://www.kaggle.com/datasets/carrie1/ecommerce-data)  
@@ -43,7 +39,7 @@ RFM analysis is a proven marketing technique that helps businesses:
   - `CustomerID` → Unique customer identifier  
   - `Country` → Customer’s country  
 
----
+
 
 ## ⚙️ Project Workflow
 ### 🔹 Step 1: Data Preprocessing  
@@ -73,22 +69,21 @@ RFM analysis is a proven marketing technique that helps businesses:
 - **At Risk** → Re-engagement campaigns, win-back offers  
 - **Low Value** → Cost-efficient promotions, upselling  
 
----
+
 
 ## 📊 Visualizations
 ### RFM Distributions  
-![Boxplots](assets/rfm_boxplot.png)  
+ 
 
 ### KMeans Segmentation  
-![Scatter Plot](assets/kmeans_scatter.png)  
+  
 
 ### Heatmap of Monetary Value  
-![Heatmap](assets/rfm_heatmap.png)  
+ 
 
 ### Customer Segment Distribution  
-![Pie Chart](assets/segment_pie.png)  
 
----
+
 
 ## 📈 Key Insights
 - **Champions** represent ~15% of customers but generate ~50% of revenue  
@@ -96,7 +91,7 @@ RFM analysis is a proven marketing technique that helps businesses:
 - **New Customers** need nurturing campaigns for retention  
 - **Low Value** group contributes minimally but can be nudged with bundles & discounts  
 
----
+
 
 ## 🛠️ Tech Stack
 - **Python 3.9+**  
@@ -104,11 +99,3 @@ RFM analysis is a proven marketing technique that helps businesses:
 - **Matplotlib, Seaborn** → Visualization  
 - **Scikit-Learn** → KMeans clustering  
 - **Jupyter Notebook** → Development & analysis  
-
----
-
-## 🚀 How to Run
-1. Clone this repository:
-   ```bash
-   git clone https://github.com/<your-username>/Customer-Segmentation-RFM.git
-   cd Customer-Segmentation-RFM
